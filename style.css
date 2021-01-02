@@ -1,0 +1,164 @@
+body{
+  margin: 0px;
+}
+
+/* Navbar Styling */
+
+.navbar{
+  border-radius: 20px;
+  width: 90%;
+  margin: auto;
+  height: 60px;
+}
+
+.navhead{
+  font-size: 30px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 1.5% 0% 1.5% 10%;
+  vertical-align: middle;
+}
+
+.navlist{
+  list-style: none;
+  float: right;
+  margin-right: 10%;
+}
+
+.navlink{
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 5px;
+}
+
+/* Home Section */
+
+.home{
+  text-align: center;
+}
+
+.homeimg{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin: 50px 0px 0px 0px;
+}
+
+.homepara2{
+  width: 500px;
+  margin: 50px auto;
+}
+
+/* Skills Section */
+
+.skill{
+  width: max-content;
+  margin: auto;
+}
+
+.skillbox{
+  width: 700px;
+  background-color: rgba(142, 231, 224, 0.603);
+  text-align: center;
+  margin:auto;
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.skillboxhead{
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.skillimg{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.skill1info,.skill3info{
+  float: right;
+  padding: 20px;
+}
+
+.skill2info{
+  float: left;
+  text-align: right;
+  padding: 20px;
+}
+
+/* About section */
+.about{
+  margin-top: 150px;
+  text-align: center;
+}
+
+.aboutpara{
+  width: 560px;
+  margin: auto;
+  font-size: 18px;
+  color:grey;
+}
+
+.aboutbox{
+  width: 500px;
+  background-color: rgba(142, 231, 224, 0.603);
+  text-align: center;
+  margin:auto;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.aboutboxhead{
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.aboutboxpara{
+  font-size: 22px;
+  font-weight: 500;
+  color:rgb(0, 0, 0);
+}
+
+.messagebutton{
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  color:white;
+  background-color: rgb(133, 218, 221);
+  border:none;
+  cursor: pointer;
+}
+
+.messagebutton:focus{
+  outline: none;
+}
+
+/* Footer Section */
+footer{
+  background-color: rgba(43, 135, 211, 0.548);
+  margin-top: 100px;
+  padding: 50px 50px 10px 50px;
+  text-align: center;
+}
+
+.footerlink{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+}
+
+.footerpara{
+  margin-top: 30px;
+  font-size: 18px;
+  color:white;
+}
